@@ -72,7 +72,7 @@ items:
         from:
           kind: ImageStreamTag
           name: redis:latest
-          namespace: redis
+          namespace: redis-cluster
       type: ImageChange
   status: {}
 kind: List
