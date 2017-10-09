@@ -3,8 +3,8 @@ kind: ImageStream
 metadata:
   generation: 2
   labels:
-    app: rhel7-base
-    name: rhel7-base
-  name: rhel7
+    app: centos7-base
+    name: centos7-base
+  name: centos7
 spec:
-  dockerImageRepository: registry.access.redhat.com/rhel7
+  dockerImageRepository: "docker.io/openshift/base-centos7"
